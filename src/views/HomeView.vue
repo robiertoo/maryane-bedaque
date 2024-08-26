@@ -6,12 +6,12 @@
 
     <div class="w-full h-full">
       <div class="lilita-one-regular mb-2">
-        <h1 class="text-2xl">Maryane Bedaque</h1>
+        <h1 class="text-3xl">Maryane Bedaque</h1>
 
-        <h2 class="text-lg">Desenvolvedora Infantil</h2>
+        <h2 class="text-xl">Desenvolvedora Infantil</h2>
       </div>
 
-      <div>
+      <div class="text-justify">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed,
           convallis ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer
