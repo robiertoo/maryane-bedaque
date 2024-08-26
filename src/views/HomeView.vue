@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col md:flex-row h-screen space-y-2 text-[--primary-color]">
+  <div class="flex flex-col md:flex-row md:space-x-4 h-screen space-y-2 text-[--primary-color]">
     <div class="w-full">
-      <img class="w-full" src="/src/assets/mb.jpg" alt="Maryane Bedaque">
+      <img class="w-full rounded-3xl" src="/src/assets/mb.jpg" alt="Maryane Bedaque">
     </div>
 
     <div class="w-full h-full">

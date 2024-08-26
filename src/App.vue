@@ -9,7 +9,7 @@ import TheNavbar from './components/ui/TheNavbar.vue'
       <the-navbar />
     </header>
   
-    <div class="">
+    <div class="py-2">
       <RouterView />
     </div>
   </div>
