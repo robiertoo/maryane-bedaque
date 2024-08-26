@@ -30,7 +30,7 @@ const isMobile = computed(() => window.innerWidth < 768);
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
-}
+};
 </script>
 
 <template>

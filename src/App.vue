@@ -1,6 +1,6 @@
 <script setup>
-import { RouterView } from 'vue-router'
-import TheNavbar from './components/ui/TheNavbar.vue'
+import { RouterView } from 'vue-router';
+import TheNavbar from './components/ui/TheNavbar.vue';
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import TheNavbar from './components/ui/TheNavbar.vue'
     <header>
       <the-navbar />
     </header>
-  
+
     <div class="py-2">
       <RouterView />
     </div>
