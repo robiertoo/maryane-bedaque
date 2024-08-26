@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col md:flex-row md:space-x-4 space-y-2">
     <div class="w-full">
-      <img class="w-full rounded-3xl" src="/src/assets/mb.jpg" alt="Maryane Bedaque">
+      <img class="w-full rounded-3xl" src="/src/assets/mb1.jpg" alt="Maryane Bedaque">
     </div>
 
     <div class="w-full">
