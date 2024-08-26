@@ -13,7 +13,7 @@ const links = [
   },
   {
     name: 'Experiências',
-    path: '/',
+    path: '/work-experience',
   },
   {
     name: 'Escolaridade',
