@@ -1,40 +1,44 @@
 <script setup>
 const experiences = [
   {
-    "position": "Full Stack Developer",
-    "description": "Web application development using technologies such as React, Node.js, and MongoDB.",
-    "city": "São Paulo",
-    "state": "SP",
-    "workExperience": "3 years"
+    position: 'Full Stack Developer',
+    description:
+      'Web application development using technologies such as React, Node.js, and MongoDB.',
+    city: 'São Paulo',
+    state: 'SP',
+    workExperience: '3 years',
   },
   {
-    "position": "Digital Marketing Analyst",
-    "description": "Creation and management of online campaigns, data analysis, and results optimization.",
-    "city": "Belo Horizonte",
-    "state": "MG",
-    "workExperience": "2 years and 6 months"
+    position: 'Digital Marketing Analyst',
+    description:
+      'Creation and management of online campaigns, data analysis, and results optimization.',
+    city: 'Belo Horizonte',
+    state: 'MG',
+    workExperience: '2 years and 6 months',
   },
   {
-    "position": "Project Manager",
-    "description": "Planning, execution, and monitoring of projects, team management, and alignment with stakeholders.",
-    "city": "Porto Alegre",
-    "state": "RS",
-    "workExperience": "5 years"
+    position: 'Project Manager',
+    description:
+      'Planning, execution, and monitoring of projects, team management, and alignment with stakeholders.',
+    city: 'Porto Alegre',
+    state: 'RS',
+    workExperience: '5 years',
   },
   {
-    "position": "Graphic Designer",
-    "description": "Creation of graphic pieces for various platforms, visual identity, and development of marketing materials.",
-    "city": "Recife",
-    "state": "PE",
-    "workExperience": "1 year and 9 months"
+    position: 'Graphic Designer',
+    description:
+      'Creation of graphic pieces for various platforms, visual identity, and development of marketing materials.',
+    city: 'Recife',
+    state: 'PE',
+    workExperience: '1 year and 9 months',
   },
   {
-    "position": "Sales Consultant",
-    "description": "Prospecting and customer service, negotiation, and sales closing.",
-    "city": "Curitiba",
-    "state": "PR",
-    "workExperience": "4 years"
-  }
+    position: 'Sales Consultant',
+    description: 'Prospecting and customer service, negotiation, and sales closing.',
+    city: 'Curitiba',
+    state: 'PR',
+    workExperience: '4 years',
+  },
 ];
 </script>
 
