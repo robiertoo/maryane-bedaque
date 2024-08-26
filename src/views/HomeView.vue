@@ -5,10 +5,10 @@
     </div>
 
     <div class="w-full">
-      <div class="lilita-one-regular mb-2">
-        <h1 class="text-3xl">Maryane Bedaque</h1>
+      <div class="mb-2">
+        <h1>Maryane Bedaque</h1>
 
-        <h2 class="text-xl">Desenvolvedora Infantil</h2>
+        <h3>Desenvolvedora Infantil</h3>
       </div>
 
       <div class="text-justify">
