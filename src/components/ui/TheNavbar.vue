@@ -17,11 +17,11 @@ const links = [
   },
   {
     name: 'Escolaridade',
-    path: '/',
+    path: '/education',
   },
   {
     name: 'Contato',
-    path: '/',
+    path: '/contact',
   },
 ];
 
