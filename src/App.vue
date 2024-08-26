@@ -9,8 +9,8 @@ import TheNavbar from './components/ui/TheNavbar.vue';
       <the-navbar />
     </header>
 
-    <div class="py-2">
-      <RouterView />
+    <div class="py-2 md:px-32">
+      <router-view />
     </div>
   </div>
 </template>
