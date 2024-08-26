@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col md:flex-row md:space-x-4 h-screen space-y-2 text-[--primary-color]">
+  <div class="flex flex-col md:flex-row md:space-x-4 space-y-2 text-[--primary-color]">
     <div class="w-full">
       <img class="w-full rounded-3xl" src="/src/assets/mb.jpg" alt="Maryane Bedaque">
     </div>
 
-    <div class="w-full h-full">
+    <div class="w-full">
       <div class="lilita-one-regular mb-2">
         <h1 class="text-3xl">Maryane Bedaque</h1>
 
