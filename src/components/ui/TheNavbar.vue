@@ -38,7 +38,7 @@ const toggleMenu = () => {
       {{ isMenuOpen ? '▲' : '▼' }}
     </div>
 
-    <div class="lilita-one-regular" v-if="isMenuOpen">
+    <div class="lilita-one-regular" v-show="isMenuOpen">
       <nav class="flex flex-col">
         <template v-for="(link, index) in links" :key="index">
           <RouterLink :to="link.path" class="hover:underline" @click="toggleMenu">
