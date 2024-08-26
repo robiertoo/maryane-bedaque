@@ -34,7 +34,7 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <div class="text-white text-2xl sticky">
+  <div class="text-white text-2xl">
     <div @click="toggleMenu" v-if="isMobile" class="cursor-pointer">
       {{ isMenuOpen ? '▲' : '▼' }}
     </div>
