@@ -37,7 +37,7 @@ const courses = [
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row md:space-x-4 space-y-2">
+  <section id="education" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
     <div class="w-full">
       <div class="mb-2">
         <h1>Formação</h1>
@@ -51,5 +51,5 @@ const courses = [
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>

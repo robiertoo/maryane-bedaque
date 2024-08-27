@@ -1,5 +1,5 @@
 <template>
-  <div class="about space-y-4">
+  <section id="about" class="space-y-4">
     <h1>Sobre mim</h1>
 
     <div class="space-y-4">
@@ -48,5 +48,5 @@
         />
       </div>
     </div>
-  </div>
+  </section>
 </template>

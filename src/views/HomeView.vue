@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row md:space-x-4 space-y-2">
+  <section id="home" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
     <div class="w-full">
       <img class="w-full rounded-3xl" src="/src/assets/mb1.jpg" alt="Maryane Bedaque" />
     </div>
@@ -30,5 +30,5 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </template>

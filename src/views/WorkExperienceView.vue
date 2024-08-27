@@ -43,7 +43,7 @@ const experiences = [
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row md:space-x-4 space-y-2">
+  <section id="work-experience" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
     <div class="w-full">
       <div class="mb-2">
         <h1>Experiências profissionais</h1>
@@ -57,5 +57,5 @@ const experiences = [
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
