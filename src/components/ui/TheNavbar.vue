@@ -1,6 +1,8 @@
 <script setup>
 import { computed, ref } from 'vue';
 import { RouterLink } from 'vue-router';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const links = [
   {
@@ -34,10 +36,13 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <div class="text-white text-2xl">
-    <div @click="toggleMenu" v-if="isMobile" class="cursor-pointer">
-      {{ isMenuOpen ? '▲' : '▼' }}
-    </div>
+  <div class="text-2xl">
+    <font-awesome-icon
+      v-if="isMobile"
+      class="cursor-pointer"
+      @click="toggleMenu"
+      :icon="isMenuOpen ? faTimes : faBars"
+    />
 
     <div class="lilita-one-regular" v-show="isMenuOpen || !isMobile">
       <nav class="flex flex-col md:flex-row md:justify-around md:px-24 lg:px-52">
