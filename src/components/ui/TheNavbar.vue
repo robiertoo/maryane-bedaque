@@ -36,7 +36,7 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <div class="text-white text-2xl">
+  <div class="text-2xl">
     <font-awesome-icon
       v-if="isMobile"
       class="cursor-pointer"
