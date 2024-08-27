@@ -1,11 +1,12 @@
 <script setup>
+import Page from '@/components/ui/Page.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 </script>
 
 <template>
-  <section id="contact" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
+  <page id="contact" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
     <div class="w-full">
       <div class="mb-2">
         <h1>Contato</h1>
@@ -37,5 +38,5 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
         </div>
       </div>
     </div>
-  </section>
+  </page>
 </template>

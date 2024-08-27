@@ -1,5 +1,9 @@
+<script setup>
+import Page from '../components/ui/Page.vue';
+</script>
+
 <template>
-  <section id="about" class="space-y-4">
+  <page id="about" class="space-y-4 bg-[--secondary-color]">
     <h1>Sobre mim</h1>
 
     <div class="space-y-4">
@@ -48,5 +52,5 @@
         />
       </div>
     </div>
-  </section>
+  </page>
 </template>

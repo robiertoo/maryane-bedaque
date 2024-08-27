@@ -7,13 +7,11 @@ import WorkExperienceView from './views/WorkExperienceView.vue';
 </script>
 
 <template>
-  <div class="p-2 space-y-2">
-    <div class="py-2 md:px-32">
-      <home-view class="min-h-screen" />
-      <about-view class="min-h-screen" />
-      <work-experience-view class="min-h-screen" />
-      <education-view class="min-h-screen" />
-      <contact-view class="min-h-screen" />
-    </div>
+  <div class="">
+    <home-view />
+    <about-view />
+    <work-experience-view />
+    <education-view />
+    <contact-view />
   </div>
 </template>

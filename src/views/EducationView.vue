@@ -1,4 +1,6 @@
 <script setup>
+import Page from '../components/ui/Page.vue';
+
 const courses = [
   {
     institution: 'Universidade Federal do Rio de Janeiro',
@@ -37,7 +39,7 @@ const courses = [
 </script>
 
 <template>
-  <section id="education" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
+  <page id="education" class="flex flex-col md:flex-row md:space-x-4 space-y-2 bg-[--fourthary-color]">
     <div class="w-full">
       <div class="mb-2">
         <h1>Formação</h1>
@@ -51,5 +53,5 @@ const courses = [
         </div>
       </div>
     </div>
-  </section>
+  </page>
 </template>

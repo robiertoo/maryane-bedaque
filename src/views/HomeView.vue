@@ -1,5 +1,9 @@
+<script setup>
+import Page from '../components/ui/Page.vue';
+</script>
+
 <template>
-  <section id="home" class="flex flex-col md:flex-row md:space-x-4 space-y-2">
+  <page id="home">
     <div class="w-full">
       <img class="w-full rounded-3xl" src="/src/assets/mb1.jpg" alt="Maryane Bedaque" />
     </div>
@@ -30,5 +34,5 @@
         </p>
       </div>
     </div>
-  </section>
+  </page>
 </template>
